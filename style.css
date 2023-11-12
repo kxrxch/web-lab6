@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Vollkorn SC', serif;
+}
+
+.block{
+    width: 50%;
+    height: 50%;
+    background-color: #f398a2;
+}
+
+.text{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25pt;
+    color: #dad7d7;
+
+}
+.blockBottom{
+    height: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1{
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    background-color: #c48e8e;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3f3d3d;
+}
+
+.btn1:hover{
+    transition: all 0.1s ease-in 0s;
+    border-radius: 10px
+}
+
+.btn1:active{
+    background-color: #a67878;
+}
+
+.calcBlock{
+    width: 50%;
+    height: 50%;
+    border-style: groove;
+    border-color: #130808;
+    border-width: 10px;
+    background-color: #440808;
+}
+
+.firstInput{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    height: 33%;
+    width: 100%;
+    font-size: 48pt;
+    text-align: center;
+    background-color: #440808;
+    outline: none;
+    font-family: 'Vollkorn SC', serif;
+}
+
+::placeholder{
+    font-size: 30pt;
+    color: #130808;
+}
+
+.operations{
+    height: 33%;
+    width: 100%;
+    background-color: #440808;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.btnAddition{
+    background-image: url("add.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    user-select: none;
+    float: left;
+    height: 100%;
+    width: 25%;
+    border-right-style: solid;
+    border-width: 3px;
+}
+
+
+.btnSubtraction{
+    background-image: url("sub.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    user-select: none;
+    float: left;
+    height: 100%;
+    width: 25%;
+    border-right-style: solid;
+    border-width: 3px;
+}
+
+.btnMultiplication{
+    background-image: url("multi.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    user-select: none;
+    height: 100%;
+    width: 25%;
+    float: left;
+    border-right-style: solid;
+    border-width: 3px;
+}
+
+.btnDivision{
+    background-image: url("div.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    user-select: none;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+.secondInput{
+    width: 100%;
+    font-size: 48pt;
+    text-align: center;
+    height: 34%;
+    background-color: #440808;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: solid;
+    border-color: black;
+    border-width: 3px;
+    outline: none;
+    font-family: 'Vollkorn SC', serif;
+}
+
+::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.result{
+    background-position: top right;
+    background-size: 50pt;
+    background-repeat: no-repeat;
+    background-image: url("sqrt.png");
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    font-size: 60pt;
+    background-color: #440808;
+    border-style: groove;
+    border-color: #130808;
+    border-width: 10px;
+}
+
+
+
